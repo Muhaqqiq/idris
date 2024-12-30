@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .body-container {
+        width: 400px;
+        margin: 0 auto;
+        background-color: #f7f7f7;
+        margin-top: 50px;
+        border: 4px solid rgb(194, 82, 194);
+        border-radius: 10px;
+        padding: 20px;
+      }
+
+      .container {
+        width: 350px;
+        height: 200px;
+        margin: 0 auto;
+        margin-top: 20px;
+        background-color: gray;
+        display: flex;
+        align-items: stretch;
+      }
+
+      .cl {
+        padding: 20px;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        align-content: center;
+      }
+      .cl1 {
+        background-color: red;
+      }
+      .cl2 {
+        background-color: yellow;
+      }
+      .cl3 {
+        background-color: navy;
+      }
+      .cl4 {
+        background-color: greenyellow;
+      }
+      .cl5 {
+        background-color: magenta;
+      }
+      .cl6 {
+        background-color: lightskyblue;
+      }
+
+      h1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 25px;
+        color: purple;
+      }
+
+      h3 {
+        text-align: center;
+        background-color: navy;
+        color: white;
+        padding: 10px;
+        width: 150px;
+        margin: 0 auto;
+        margin-top: 10px;
+        text-transform: capitalize;
+        border-radius: 10px;
+      }
+
+      .option {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        text-transform: capitalize;
+        width: 220px;
+        height: 110px;
+        margin: 0 auto;
+        margin-top: 30px;
+      }
+
+      a {
+        font-weight: bold;
+        text-decoration: none;
+        background-color: aqua;
+        color: black;
+        padding: 10px;
+        border: 2px solid orange;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="body-container">
+      <h1>choose your favorite flex style</h1>
+      <h3>align-items</h3>
+      <div class="container">
+        <div class="cl cl1">1</div>
+        <div class="cl cl2">2</div>
+        <div class="cl cl3">3</div>
+        <div class="cl cl4">4</div>
+        <div class="cl cl5">5</div>
+        <div class="cl cl6">6</div>
+      </div>
+
+      <div class="option">
+        <a href="flexstart.html" class="clop">flex start</a>
+        <a href="flexend.html" class="clop">flex end</a>
+        <a href="flexcenter.html" class="clop">center</a>
+        <a href="flexstretch.html" class="clop">stretch</a>
+      </div>
+    </div>
+  </body>
+</html>
